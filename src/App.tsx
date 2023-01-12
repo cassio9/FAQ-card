@@ -53,16 +53,19 @@ function App() {
 						<img
 							className="absolute w-[240px] translate-x-[55px] lg:w-[400px] lg:scale-[1.8] lg:-translate-x-[250px] lg:-translate-y-10 -top-[30px] "
 							src={HeroImg}
+							aria-hidden="true"
 							alt="Shade of logo"
 						/>
 						<img
 							className="w-[240px] translate-x-[55px]  lg:w-[500px] lg:-translate-x-[100px] -top-[30px]"
 							src={HeroImg1}
+							aria-hidden="true"
 							alt="Logo"
 						/>
 						<img
 							className="absolute top-[65px] lg:hidden w-[100px] lg:-translate-x-20 translate-x-[55px] lg:translate-y-[5.2rem] lg:scale-150 "
 							src={HeroImg2}
+							aria-hidden="true"
 							alt="dice"
 						/>
 					</div>
@@ -76,6 +79,7 @@ function App() {
 				<img
 					className="absolute invisible lg:visible top-[65px] w-[100px] lg:-translate-x-10 lg:translate-y-[19rem] lg:scale-[2]"
 					src={HeroImg2}
+					aria-hidden="true"
 					alt="dice"
 				/>
 			</div>
